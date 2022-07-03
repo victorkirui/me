@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/me/static/js/main.9659d461.js",
+    "static/media/tesla.png": "/me/static/media/tesla.3c7342bceb9a49206de4.png",
+    "static/media/netflix.png": "/me/static/media/netflix.a944ac2b66601665fba6.png",
+    "static/media/fibrconnect.png": "/me/static/media/fibrconnect.d92daa7ad71eddeb6def.png",
+    "static/media/responsiveGrid.png": "/me/static/media/responsiveGrid.d05ec1338d56918217a6.png",
+    "static/media/airbnb.png": "/me/static/media/airbnb.28351abee6a519cd7014.png",
+    "static/media/frontendmentor2.png": "/me/static/media/frontendmentor2.4abba5c2d857343c828f.png",
+    "static/media/clinterpol.png": "/me/static/media/clinterpol.560deb64ea9526da5980.png",
+    "static/media/frontendmentor1.png": "/me/static/media/frontendmentor1.1af5af60fe4949ac35d2.png",
+    "static/media/reactweb.png": "/me/static/media/reactweb.160a7edb3a3d9734ad14.png",
+    "static/media/accurate.png": "/me/static/media/accurate.9a141b4301bc20e55c76.png",
+    "static/media/bootstrap.png": "/me/static/media/bootstrap.87b2b41e1d703d5fc6c1.png",
+    "static/media/wordpress.png": "/me/static/media/wordpress.dae34a288b6d0dd773b2.png",
+    "static/media/Resume Victor Kiprop Kirui.pdf": "/me/static/media/Resume Victor Kiprop Kirui.b1fc322ec8157506a85a.pdf",
+    "static/media/Geek.png": "/me/static/media/Geek.5cedbf101eed10d7bf5b.png",
+    "static/media/graphql.png": "/me/static/media/graphql.c6cf4491045a8bb73cb6.png",
+    "static/media/udacity.png": "/me/static/media/udacity.083c27c7b4523fac8d5e.png",
+    "static/media/react.png": "/me/static/media/react.b9101a493f54d6268931.png",
+    "static/media/udemy1.jpg": "/me/static/media/udemy1.f69cba15eb482f10ef24.jpg",
+    "static/media/udemy3.jpg": "/me/static/media/udemy3.71417d9083c24e6edbbe.jpg",
+    "static/media/udemy2.jpg": "/me/static/media/udemy2.5f8fe0181baf048e1611.jpg",
+    "static/media/sass.png": "/me/static/media/sass.75de496d65309515cc8d.png",
+    "static/media/css3.png": "/me/static/media/css3.62d0e1ab3be92e8fc744.png",
+    "static/media/figma.png": "/me/static/media/figma.97b209ef19b1c332a589.png",
+    "static/media/jquery.png": "/me/static/media/jquery.78fe8dbc92acb3e92340.png",
+    "static/media/html5.png": "/me/static/media/html5.bee37bed1c813ab4571e.png",
+    "static/media/apollo.png": "/me/static/media/apollo.6f1b54557c6bd65b402c.png",
+    "static/media/redux.png": "/me/static/media/redux.b3b939c66aecf7d53967.png",
+    "index.html": "/me/index.html",
+    "static/media/frontend-mentor.svg": "/me/static/media/frontend-mentor.85bd04c489b50d80ec85f663a322c4ef.svg",
+    "main.9659d461.js.map": "/me/static/js/main.9659d461.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9659d461.js"
+  ]
+}
