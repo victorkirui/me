@@ -24,6 +24,9 @@ const SideBarContainer = styled.div`
   @media screen and (max-width: 1200px) {
     transform: translateX(-100%);
   }
+  @media screen and (max-width: 425px) {
+    width: 14.5rem;
+  }
 `;
 
 export default SideBar;

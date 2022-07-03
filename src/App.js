@@ -6,8 +6,7 @@ import { IconButton } from "@material-ui/core";
 
 import Switch from "@material-ui/core/Switch";
 import MenuIcon from "@material-ui/icons/Menu";
-import { GrClose } from "react-icons/gr";
-
+import CloseIcon from "@material-ui/icons//Close";
 //PAGES
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -59,8 +58,11 @@ function App() {
             onClick={() => setNavToggle(!navToggle)}
           >
             <IconButton>
-              {navToggle ? <GrClose /> : <MenuIcon />}
-              <MenuIcon />
+              {navToggle ? (
+                <CloseIcon className="burger" />
+              ) : (
+                <MenuIcon className="burger" />
+              )}
             </IconButton>
           </div>
         </div>
@@ -121,13 +123,18 @@ const MainContentWrapper = styled.main`
 
   .hamburger-menu {
     display: none;
-    color: var(--white-color);
   }
   @media screen and (max-width: 1200px) {
     .hamburger-menu {
       display: block;
+      z-index: 9999;
+      .burger {
+        display: inline-block;
+        color: var(--white-color);
+        z-index: 9999;
+      }
       svg {
-        font-size: 2.7rem;
+        font-size: 2.3rem;
       }
     }
   }

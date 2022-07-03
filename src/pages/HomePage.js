@@ -17,10 +17,10 @@ const HomePage = () => {
           HI, I am <span>Victor Kiprop</span>
         </h1>
         <p>
-          A selft taught front-end developer currently pursuing career
-          opportunities as a Frontend developer. I specialize in React and I
-          love building beautiful interfaces,web apps, and everything in
-          between!
+          A skilled Frontend professional with a passion for Frontend
+          development and a great eye for design. Determined to make quality
+          interfaces and web apps to make the consumers experience enjoyable.
+          <br /> Mainly skilled in JavaScript, React and Git.
         </p>
         <div className="icons">
           <a
@@ -76,7 +76,7 @@ const HomePageContainer = styled.header`
     }
     p {
       font-weight: 200;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       margin: 1.2rem 0;
       line-height: 2rem;
     }

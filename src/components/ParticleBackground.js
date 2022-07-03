@@ -54,7 +54,7 @@ function ParticleBackground() {
               color: "#555",
               distance: 150,
               enable: true,
-              opacity: 0.06,
+              opacity: 0.07,
               width: 1,
             },
             collisions: {
@@ -76,7 +76,7 @@ function ParticleBackground() {
               value: 100,
             },
             opacity: {
-              value: 0.05,
+              value: 0.06,
             },
             shape: {
               type: "circle",

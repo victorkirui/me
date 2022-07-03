@@ -2,7 +2,7 @@ import React from "react";
 import { MainLayout } from "../styles/Layouts";
 import Title from "../components/Title";
 import styled from "styled-components";
-import ImageSection from "../components/ImageSection";
+import AboutSection from "../components/AboutSection";
 // import ServicesSection from "../components/ServicesSection";
 // import ReviewsSection from "../components/ReviewsSection";
 import Skills from "../components/Skills";
@@ -12,7 +12,7 @@ function AboutPage() {
     <MainLayout>
       <AboutStyled>
         <Title title="About Me" span="About Me" />
-        <ImageSection />
+        <AboutSection />
         <Skills />
         {/* <ServicesSection /> */}
         {/* <ReviewsSection /> */}

@@ -111,6 +111,10 @@ p{
 /* UTITLITIES */
 .resume-margin-b-utility-class{
 margin-bottom:3rem;
+
+@media screen and (max-width:500px){
+    margin-bottom:2rem;
+}
 }
 
 // TOGGLER LIGHT-DARK THEME
