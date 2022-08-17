@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-function ResumeItem({ year, image, title, subTitle, link, technologies }) {
-  console.log(technologies);
+function ResumeItem({ year, image, title, subTitle, link, technologies,text }) {
 
   return (
     <ResumeItemContainer>
