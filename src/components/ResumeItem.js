@@ -12,8 +12,8 @@ function ResumeItem({ year, image, title, subTitle, link, technologies, text }) 
           {image && <img src={image} alt="certificate thumbnail" />}
         </div>
         <div className="right-content">
-          <h5>{title}</h5>
-          <h6>{subTitle} - {text}</h6>
+          <h5>{title} hello</h5>
+          <h6>{subTitle} - {text} - test</h6>
 
           <div className="technologies">
             {technologies &&
