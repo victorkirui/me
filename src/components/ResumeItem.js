@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-function ResumeItem({ year, image, title, subTitle, link, technologies,text }) {
+function ResumeItem({ year, image, title, subTitle, link, technologies, text }) {
 
   return (
     <ResumeItemContainer>
@@ -13,7 +13,7 @@ function ResumeItem({ year, image, title, subTitle, link, technologies,text }) {
         </div>
         <div className="right-content">
           <h5>{title}</h5>
-          <h6>{subTitle}</h6>
+          <h6>{subTitle} - {text}</h6>
 
           <div className="technologies">
             {technologies &&
@@ -22,7 +22,7 @@ function ResumeItem({ year, image, title, subTitle, link, technologies,text }) {
               ))}
           </div>
 
-{text && (<span>{text}</span>)}
+          {text && (<span>{text} - hello</span>)}
           
           {link && (
             <a href={link} target="_blank" rel="noreferrer">
