@@ -23,6 +23,8 @@ function ResumeItem({ year, image, title, subTitle, link, technologies }) {
               ))}
           </div>
 
+{text && (<span>{text}</span>)}
+          
           {link && (
             <a href={link} target="_blank" rel="noreferrer">
               Show credential <BsBoxArrowUpRight className="icon" />
